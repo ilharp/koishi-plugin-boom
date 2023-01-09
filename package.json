@@ -1,0 +1,48 @@
+{
+  "name": "koishi-plugin-boom",
+  "description": "BOOM your Koishi! (This will BOOM your Koishi instantly and permanently, DO NOT INSTALL!)",
+  "version": "0.0.1",
+  "author": {
+    "name": "Il Harper",
+    "email": "afanyiyu@hotmail.com",
+    "url": "https://ilharper.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/ilharp/koishi-plugin-boom",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ilharp/koishi-plugin-boom.git"
+  },
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "scripts": {
+    "build": "atsc -b"
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.0.0"
+  },
+  "devDependencies": {
+    "atsc": "^1.2.2",
+    "koishi": "^4.11.0",
+    "typescript": "^4.9.4"
+  },
+  "koishi": {
+    "description": {
+      "en": "BOOM your Koishi! (This will BOOM your Koishi instantly and permanently, DO NOT INSTALL!)",
+      "zh": "炸掉你的 Koishi！（只要安装就会永久损坏 Koishi，千万别安装！）"
+    },
+    "locales": [
+      "en",
+      "zh"
+    ]
+  }
+}
